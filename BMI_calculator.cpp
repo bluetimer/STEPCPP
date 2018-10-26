@@ -6,21 +6,21 @@
 #include <iomanip>
 
 /*
- uses all the classes from the library. If you dont use namespace std,
- you will have to specify the classes you want to use one by one.
- For example,
- using std::cout;
- using std::cin;
-*/
+ * uses all the classes from the library. If you dont use namespace std,
+ * you will have to specify the classes you want to use one by one.
+ * For example,
+ * using std::cout;
+ * using std::cin;
+ */
 
 using namespace std;
 
 /*
-the main loop will return 0 if the code is successfully complie.
-for debugging purposes, we can return another integer values,which
-describes different type of error.
-For example, return 1 if file is not found.
-*/
+ * the main loop will return 0 if the code is successfully complie.
+ * for debugging purposes, we can return another integer values,which
+ * describes different type of error.
+ * For example, return 1 if file is not found.
+ */
 
 int main() {
 
